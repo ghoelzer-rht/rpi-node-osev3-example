@@ -5,7 +5,7 @@ WORKDIR /src
 
 USER root
 
-RUN yum install -y npm
+RUN yum install -y --nogpgcheck npm
 
 EXPOSE 80
 
