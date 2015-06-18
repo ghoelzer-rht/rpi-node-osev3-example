@@ -5,7 +5,7 @@ WORKDIR /src
 
 USER root
 
-RUN yum install -y npm --enablerepo=epel
+RUN yum install -y npm
 
 EXPOSE 80
 
