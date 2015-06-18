@@ -1,4 +1,4 @@
-FROM hypriot/rpi-node:0.12.0
+FROM openshift3_beta/nodejs-010-rhel7
 
 ADD src/ /src
 WORKDIR /src
