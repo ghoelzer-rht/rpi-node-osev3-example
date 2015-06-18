@@ -7,6 +7,8 @@ USER root
 
 RUN yum install -y --nogpgcheck npm
 
+RUN npm install express
+
 EXPOSE 80
 
 CMD ["node", "index.js"]
